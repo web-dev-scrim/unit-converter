@@ -87,43 +87,45 @@ button:hover {
   transition: background-color 0.3s ease;
 }
 
-/* TODO: fix styling a little bit */
-
 #length-div {
   width: 500px;
   height: 108.57px;
   background-color: white;
-  border: 2px solid black;
   border-radius: 8px;
   box-sizing: border-box;
   margin: 25px auto;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #volume-div {
   width: 500px;
   height: 108.57px;
   background-color: white;
-  border: 2px solid black;
   border-radius: 8px;
   box-sizing: border-box;
   margin: 25px auto;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #mass-div {
   width: 500px;
   height: 108.57px;
   background-color: white;
-  border: 2px solid black;
   border-radius: 8px;
+  box-sizing: border-box;
   margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -133,8 +135,10 @@ h4 {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  margin: 15px auto 0 auto;
+  margin: 5px 0;
   padding: 0;
+  line-height: 1.2;
+  text-align: center;
 }
 
 p {
@@ -143,6 +147,9 @@ p {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  margin: 10 auto 5;
-  padding: 0 15px;
+  margin: 5px 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  line-height: 1.2;
+  text-align: center;
 }
